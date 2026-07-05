@@ -1,0 +1,6 @@
+customer_id,customer_name,status
+1,Arun,ACTIVE
+2,Priya,ACTIVE
+3,Karthik,CLOSED
+4,,ACTIVE
+5,Divya,PENDING
