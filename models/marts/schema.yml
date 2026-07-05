@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: customer_order_summary
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+      - name: total_amount
+        tests:
+          - dbt_utils.accepted_range:
+              min_value: 0
